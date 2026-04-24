@@ -2,7 +2,7 @@
 Description=full opacity
 opacityactiverule=2
 opacityinactiverule=2
-wmclass=^steam_app_.*|^minecraft.*|^league.*|^csgo.*|^dota2.*|^vlc$|^mpv$\n|^antigravity|^com.heroic*|^mpv*|org.kde.spectacle|^endfield*
+wmclass=^steam_app_.^csgo.*|^vlc$|^mpv$\n|^antigravity|^com.heroic*|^mpv*|org.kde.spectacle|^endfield*
 wmclassmatch=3
 
 [General]
