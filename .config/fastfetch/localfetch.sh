@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Ensure dependencies are there
 if ! command -v jq &> /dev/null || ! command -v bc &> /dev/null; then
     fastfetch > /dev/tty
     exit 0
@@ -34,4 +33,4 @@ fi
 [[ -z "$TARGET_W" || "$TARGET_W" -le 0 ]] && TARGET_W=40
 
 # Run it
-fastfetch --logo "$RANDOM_FILE" --logo-type kitty-icat --logo-width "$TARGET_W" --logo-height "$TARGET_H" --processing-timeout 3000 > /dev/tty
+fastfetch --logo "$RANDOM_FILE" --logo-type kitty-icat --processing-timeout 3000 > /dev/tty

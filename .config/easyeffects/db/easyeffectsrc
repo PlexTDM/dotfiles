@@ -2,12 +2,12 @@
 inputDevice=alsa_input.pci-0000_00_1f.3.pro-input-0
 plugins=echo_canceller#0,rnnoise#0,speex#0,pitch#0,autogain#0,deepfilternet#0,limiter#0
 visiblePage=pluginsPage
-visiblePlugin=limiter#0
+visiblePlugin=echo_canceller#0
 
 [StreamOutputs]
 outputDevice=alsa_output.pci-0000_00_1f.3.pro-output-0
 
 [Window]
-height=1046
+height=643
 visiblePage=inputPage
-width=1912
+width=1031
